@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.comphenix.protocol:ProtocolLib:4.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/comphenix/protocol/ProtocolLib/4.1.0-SNAPSHOT/ProtocolLib-4.1.0-20160827.171247-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/comphenix/protocol/ProtocolLib/4.1.0-SNAPSHOT/ProtocolLib-4.1.0-20160827.171247-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/comphenix/protocol/ProtocolLib/4.1.0-SNAPSHOT/ProtocolLib-4.1.0-20160827.171247-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+#Don't change it
+configVersion: 1
+
+#Default Max page of player
+maxPage: 8
+#############################################################
+#                                                           #
+#                          Page Content                     #
+#       Change only you want something default inside       #
+#                                                           #
+#############################################################
+inventoryContent:
+ 1: "[]"

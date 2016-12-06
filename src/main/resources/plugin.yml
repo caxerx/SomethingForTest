@@ -1,0 +1,8 @@
+name: TestingPlugin
+main: com.caxerx.mc.testingplugin.nbtfucker.NBTFucker
+version: 1.0
+commands:
+ test:
+  description: "command"
+ create:
+  description: "command"
