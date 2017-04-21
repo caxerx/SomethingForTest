@@ -1,0 +1,517 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+Messages:
+  RespectingClaims:
+    Text: 領地穿透模式關閉
+  IgnoringClaims:
+    Text: 領地穿透模式開啟
+  SuccessfulAbandon:
+    Text: 已刪除領地，你現在還有 {0} 格可用領地。
+    Notes: '0: remaining blocks'
+  RestoreNatureActivate:
+    Text: 還原模式啟動！  右鍵重新生成，使用 /BasicClaims 取消。
+  RestoreNatureAggressiveActivate:
+    Text: 進階還原模式啟動！ 請勿在任何你想保留的位置使用此指令。 右鍵重新生成，使用 /BasicClaims 取消。
+  FillModeActive:
+    Text: '啟動填充模式(半徑: {0})，右鍵點擊位置來填充。'
+    Notes: '0: fill radius'
+  TransferClaimPermission:
+    Text: 這個指令需要管理員權限！
+  TransferClaimMissing:
+    Text: 範圍不是領地，請站在你想要轉移的官方領地上。
+  TransferClaimAdminOnly:
+    Text: 只有官方領地可以轉移給玩家。
+  PlayerNotFound2:
+    Text: 最近沒有玩家以這個用戶名進入遊戲。
+  TransferTopLevel:
+    Text: 只要主領地 (非子領地) 可以被轉移，請在子領地以外範圍進行轉移。
+  TransferSuccess:
+    Text: 領地成功轉移。
+  TrustListNoClaim:
+    Text: 請站在你想查看的領地上。
+  ClearPermsOwnerOnly:
+    Text: 只有領地擁有者能清除所有權限。
+  UntrustIndividualAllClaims:
+    Text: 已收回 {0} 在你所有領地上的權限。 若要設定在單一領地上的權限，請站在該領地之內。
+    Notes: '0: untrusted player'
+  UntrustEveryoneAllClaims:
+    Text: 已收回所有人在你所有領地上的權限。 若要設定在單一領地上的權限，請站在該領地之內。
+  NoPermissionTrust:
+    Text: 你未得到 {0} 的許可去管理這裡的權限。
+    Notes: '0: claim owner''s name'
+  ClearPermissionsOneClaim:
+    Text: 已收回此領地上的所有權限。 若要設定在所有領地上的權限，請站在領地之外。
+  UntrustIndividualSingleClaim:
+    Text: 已收回 {0} 在此領地上的權限。 若要設定在所有領地上的權限，請站在領地之外。
+    Notes: '0: untrusted player'
+  OnlySellBlocks:
+    Text: 領地方塊只可以賣出，不能買入。
+  BlockPurchaseCost:
+    Text: 每一格領地售價為 {0}. 你現在的餘額為 {1}.
+    Notes: '0: cost of one block; 1: player''s account balance'
+  ClaimBlockLimit:
+    Text: 你的領地方塊已達上限，不能購買更多。
+  InsufficientFunds:
+    Text: 你的餘額{0}，不足以購買價值為 {1} 的領地方塊。
+    Notes: '0: total cost; 1: player''s account balance'
+  PurchaseConfirmation:
+    Text: 已在帳戶中扣除了 {0} ，現在你共有 {1} 格可用領地。
+    Notes: '0: total cost; 1: remaining blocks'
+  OnlyPurchaseBlocks:
+    Text: 領地只能購買，不能售出。
+  BlockSaleValue:
+    Text: 每一格領地的回收價為 {0} ，你共有 {1} 個方塊可以售出。
+    Notes: '0: block value; 1: available blocks'
+  NotEnoughBlocksForSale:
+    Text: 你沒有足夠的領地方塊可以售出。
+  BlockSaleConfirmation:
+    Text: 已在你的帳戶中增加 {0} 。現在你有 {1} 格可用領地。
+    Notes: '0: amount deposited; 1: remaining blocks'
+  AdminClaimsMode:
+    Text: 官方領地模式啟用，現在起所有建立的領地只能由管理員管理。
+  BasicClaimsMode:
+    Text: 現在已返回基本領地模式。
+  SubdivisionMode:
+    Text: 子領地模式已啟用。 現在可以在你現有的領地上建立子領地，使用 /BasicClaims 回到基本領地模式。
+  SubdivisionVideo2:
+    Text: 點擊查看子領地的建立方法： {0}
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: 範圍不是領地。
+  DeletionSubdivisionWarning:
+    Text: 領地內包含子領地，若你確定移除此領地，請再次使用 /DeleteClaim 移除。
+  DeleteSuccess:
+    Text: 領地已移除。
+  CantDeleteAdminClaim:
+    Text: 你沒有權限移除官方領地。
+  DeleteAllSuccess:
+    Text: 已移除所有屬於 {0} 的領地。
+    Notes: '0: owner''s name'
+  NoDeletePermission:
+    Text: 你沒有權限移除領地。
+  AllAdminDeleted:
+    Text: 已移除所有官方領地。
+  AdjustBlocksSuccess:
+    Text: 已將 {0} 的額外領地方塊數增加 {1} 格，現在共有 {2} 格額外領地方塊。
+    Notes: '0: player; 1: adjustment; 2: new total'
+  NotTrappedHere:
+    Text: 你現在可以在此建築，請保障自己的安全。
+  RescuePending:
+    Text: 若在10秒內沒有移動，你將會被傳送到外面，請稍候。
+  NonSiegeWorld:
+    Text: 戰爭模式已被禁用。
+  AlreadySieging:
+    Text: 已你被捲入戰爭之中。
+  NotSiegableThere:
+    Text: '{0} 並沒有在保護之中。'
+    Notes: '0: defending player'
+  SiegeTooFarAway:
+    Text: 你離開戰爭範圍太遠了。
+  NoSiegeYourself:
+    Text: 你不能對自己發起戰爭。
+  NoSiegeDefenseless:
+    Text: 這個玩家手無搏雞之力，向其他玩家出手吧。
+  AlreadyUnderSiegePlayer:
+    Text: '{0} 已在戰爭之中！'
+    Notes: '0: defending player'
+  AlreadyUnderSiegeArea:
+    Text: 這個範圍已在進行戰爭。
+  NoSiegeAdminClaim:
+    Text: 這範圍不允許發起戰爭。
+  SiegeOnCooldown:
+    Text: 這個領地或玩家未準備好進行戰爭，向其他玩家出手吧。
+  SiegeAlert:
+    Text: 你已被捲入戰爭中，若你現在登出，你將會死亡作為懲罰，你需要殺死 {0} 、等待他放棄或者逃走。
+    Notes: '0: attacker name'
+  SiegeConfirmed:
+    Text: 你已被捲入戰爭中，若你現在登出，你將會死亡作為懲罰，你需要追殺 {0} 或是投降離開。
+    Notes: '0: defender name'
+  AbandonClaimMissing:
+    Text: 請站在你想移除的領地上，或使用 /AbandonAllClaims 移除所有領地。
+  NotYourClaim:
+    Text: 這不是你的領地。
+  DeleteTopLevelClaim:
+    Text: 若想移除子領地，請站在子領地上，或使用 /AbandonTopLevelClaim 將主領地連同所有子領地移除。
+  AbandonSuccess:
+    Text: 領地已移除，你現在有 {0} 格可用領地。
+    Notes: '0: remaining claim blocks'
+  CantGrantThatPermission:
+    Text: 你不能給予自己沒有的權限。
+  GrantPermissionNoClaim:
+    Text: 請站在你想給予權限的領地上。
+  GrantPermissionConfirmation:
+    Text: 已給予 {0} 在 {2} 上 {1} 的權限。
+    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+  ManageUniversalPermissionsInstruction:
+    Text: 站在領地之外管理你所有領地的權限。
+  ManageOneClaimPermissionsInstruction:
+    Text: 站在領地內管理該領地的權限。
+  CollectivePublic:
+    Text: 所有人
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: 建築
+  ContainersPermission:
+    Text: 使用容器或動物
+  AccessPermission:
+    Text: 使用按鈕或控制桿
+  PermissionsPermission:
+    Text: 管理權限
+  LocationCurrentClaim:
+    Text: 這個領地
+  LocationAllClaims:
+    Text: 你所有領地
+  PvPImmunityStart:
+    Text: 你現在不會被其他玩家攻擊直至你拾取物品。
+  SiegeNoDrop:
+    Text: 你不能在戰爭期間丟棄物品。
+  DonateItemsInstruction:
+    Text: 若想送出手中的物品，請再次以左鍵點擊箱子。
+  ChestFull:
+    Text: 箱子已滿。
+  DonationSuccess:
+    Text: 物品已放入箱子中。
+  PlayerTooCloseForFire2:
+    Text: 你不能在玩家附近燃點火焰。
+  TooDeepToClaim:
+    Text: 在此放置箱子不會自動建立領地，因為箱子在地底深處。
+  ChestClaimConfirmation:
+    Text: 箱子已被保護。
+  AutomaticClaimNotification:
+    Text: 箱子附近的範圍已被保護，物品不會被盜取及建築不會被破壞。
+  UnprotectedChestWarning:
+    Text: 這個箱子的物品可能會被其他玩家盜取，請建立領地保護箱子及建築。
+  ThatPlayerPvPImmune:
+    Text: 該玩家現在為PvP免疫狀態，你不能攻擊他。
+  CantFightWhileImmune:
+    Text: 你現在為PvP免疫狀態，你不能攻擊其他玩家。
+  NoDamageClaimedEntity:
+    Text: 該動物屬於 {0} 你不能攻擊他。
+    Notes: '0: owner name'
+  ShovelBasicClaimMode:
+    Text: 剷子已回到基本領地模式。
+  RemainingBlocks:
+    Text: 你還有 {0} 格可用領地。
+    Notes: '0: remaining blocks'
+  CreativeBasicsVideo2:
+    Text: 領地建立教學： {0}
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo2:
+    Text: 領地建立教學： {0}
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: 卡住
+    Notes: When mentioned in chat, players get information about the /trapped command.
+  TrappedInstructions:
+    Text: 卡住在別人的領地了？ 試一下使用 /trapped 指令。
+  PvPNoDrop:
+    Text: 你不能在PvP期間丟棄物品。
+  SiegeNoTeleport:
+    Text: 你不能以傳送方式離開戰爭範圍。
+  BesiegedNoTeleport:
+    Text: 你不能傳送到戰爭範圍。
+  SiegeNoContainers:
+    Text: 你不能在戰爭期間使用此方塊。
+  PvPNoContainers:
+    Text: 你不能在PvP時使用此方塊。
+  PvPImmunityEnd:
+    Text: 現在你可以與其他玩家戰鬥。
+  NoBedPermission:
+    Text: 你沒有 {0} 的權限使用這裡的床。
+    Notes: '0: claim owner'
+  NoWildernessBuckets:
+    Text: 你只能在地底或領地上放置液體。
+  NoLavaNearOtherPlayer:
+    Text: 你不能在 {0} 附近放置熔岩。
+    Notes: '0: nearby player'
+  TooFarAway:
+    Text: 這距離太遠了。
+  BlockNotClaimed:
+    Text: 沒有人在此建立領地。
+  BlockClaimed:
+    Text: 這裡的方塊屬於 {0} 。
+    Notes: '0: claim owner'
+  SiegeNoShovel:
+    Text: 你不能在戰爭期間使用剷子。
+  RestoreNaturePlayerInChunk:
+    Text: 無法重新生成這裡，因為 {0} 在這個區塊。
+    Notes: '0: nearby player'
+  NoCreateClaimPermission:
+    Text: 你沒有權限建立領地。
+  ResizeNeedMoreBlocks:
+    Text: 你還需要 {0} 格領地才能擴展此領地。
+    Notes: '0: how many needed'
+  NoCreativeUnClaim:
+    Text: 你不能移除這個領地，你可以選擇調整領地大小或建立另一個領地。
+  ClaimResizeSuccess:
+    Text: 領地大小已重新調整，你現在還有 {0} 格可用領地方塊。
+    Notes: '0: remaining blocks'
+  ResizeFailOverlap:
+    Text: 你無法調整領地大小，因為這與另一個領地重疊了。
+  ResizeStart:
+    Text: 調整領地大小，使用金剷重新調整這個角的所在位置。
+  ResizeFailOverlapSubdivision:
+    Text: 無法建立子領地，因為這與其他子領地重疊了。你可以使用 /AbandonClaim 移除已有子領地或使用金剷點擊子領地的其中一角調整領地大小。
+  SubdivisionStart:
+    Text: 你已選取子領地的其中一角，再次點擊子領地範圍的對角建立子領地。
+  CreateSubdivisionOverlap:
+    Text: 你的選取範圍與其他子領地重疊。
+  SubdivisionSuccess:
+    Text: 已建立子領地，使用 /Trust 與其他玩家共用領地。
+  CreateClaimFailOverlap:
+    Text: 你不可以在此建立領地，因為這與你的領地重疊了。你可以使用 /AbandonClaim 移除已有領地或使用金剷點擊領地的其中一角調整領地大小。
+  CreateClaimFailOverlapOtherPlayer:
+    Text: 你不可以在此建立領地，因為這與 {0} 的領地重疊了。
+    Notes: '0: other claim owner'
+  ClaimsDisabledWorld:
+    Text: 你不可以在這個世界建立領地。
+  ClaimStart:
+    Text: 你已選取領地的其中一角，再次點擊領地範圍的對角建立領地。若想取消建立領地，請放下你的金剷。
+  NewClaimTooNarrow:
+    Text: 這個領地太小了，領地寬度最少為 {0} 格。
+    Notes: '0: minimum claim width'
+  CreateClaimInsufficientBlocks:
+    Text: 你還需要 {0} 格領地方塊才能將這個地區建立為領地。
+    Notes: '0: additional blocks needed'
+  AbandonClaimAdvertisement:
+    Text: 你可以使用 /AbandonClaim 移除你的其他領地收回領地方塊。
+  CreateClaimFailOverlapShort:
+    Text: 你所選取的範圍與已有的領地重疊。
+  CreateClaimSuccess:
+    Text: 已建立領地，使用 /Trust 指令與其他玩家共用領地。
+  SiegeWinDoorsOpen:
+    Text: 你已在戰爭中取得勝利，這裡的按鈕及拉桿會暫時解鎖 5 分鐘。
+  RescueAbortedMoved:
+    Text: 你已移動了，逃離傳送取消。
+  SiegeDoorsLockedEjection:
+    Text: Looting time is up!  Ejected from the claim.
+  NoModifyDuringSiege:
+    Text: 你不能在戰爭期間調整領地。
+  OnlyOwnersModifyClaims:
+    Text: 只有 {0} 可以調整此領地。
+    Notes: '0: owner name'
+  NoBuildUnderSiege:
+    Text: 這領地由 {0} 發起了戰爭，現在沒有人可以在此建築。
+    Notes: '0: attacker name'
+  NoBuildPvP:
+    Text: 你不能在PvP時建築。
+  NoBuildPermission:
+    Text: 你未受 {0} 的允許在此建築。
+    Notes: '0: owner name'
+  NonSiegeMaterial:
+    Text: 你無法在戰爭期間破壞此方塊。
+  NoOwnerBuildUnderSiege:
+    Text: 你無法在戰爭期間在此建築。
+  NoAccessPermission:
+    Text: 你未受 {0} 的允許使用此方塊。
+    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+  NoContainersSiege:
+    Text: 這領地由 {0} 發起了戰爭，現在沒有人可以使用這裡的容器。
+    Notes: '0: attacker name'
+  NoContainersPermission:
+    Text: 你沒有 {0} 的權限使用此方塊。
+    Notes: '0: owner''s name.  containers also include crafting blocks'
+  OwnerNameForAdminClaims:
+    Text: 管理員
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  ClaimTooSmallForEntities:
+    Text: 你的領地大小不足以放置實體，請嘗試擴展你的領地。
+  TooManyEntitiesInClaim:
+    Text: 你的領地內有太多實體，請嘗試擴展你的領地或移除其他動物、怪物、畫或礦車。
+  YouHaveNoClaims:
+    Text: 你沒有建立任何領地。
+  ConfirmFluidRemoval:
+    Text: 移除此領地會將領地中的岩漿一併移除，若你確定要移除，請再次使用 /AbandonClaim 。
+  AutoBanNotify:
+    Text: 已自動封禁 {0}({1}). 查看日誌取得詳細資料。
+  AdjustGroupBlocksSuccess:
+    Text: 已將所有擁有 {0} 權限的玩家增加 {1} 格領地方塊，現在他們共有 {2} 格額外領地方塊。
+    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+  InvalidPermissionID:
+    Text: 請指定一個玩家名稱，或是在[括號]內的權限。
+  HowToClaimRegex:
+    Text: (^|.*\W)(點樣|點|如何|how)\W.*\W(領地|保護|claim|鎖箱|protect|lock)(\W.*|$)
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used to tell players about the demo video when they ask how to claim land.
+  NoBuildOutsideClaims:
+    Text: 你不能在此建築，若你想在此建築，請建立領地。
+  PlayerOfflineTime:
+    Text: '  最後上線時間: {0} 日之前。'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: 其他玩家也可以在此建築，若你想保護你的建築，請建立領地。
+  TrappedWontWorkHere:
+    Text: 無法傳送你到一個安全的地方，請聯絡管理員。
+  CommandBannedInPvP:
+    Text: 你不能在PvP期間使用這個指令。
+  UnclaimCleanupWarning:
+    Text: 在非領地範圍建築可能會被其他玩家破壞或被管理員清理，若想保留建築，請建立領地。
+  BuySellNotConfigured:
+    Text: 領地方塊買賣功能已禁用。
+  NoTeleportPvPCombat:
+    Text: 你不能在PvP期間進行傳送。
+  NoTNTDamageAboveSeaLevel:
+    Text: 注意：TNT不會破壞海平線以上的方塊。
+  NoTNTDamageClaims:
+    Text: 注意：TNT不會破壞領地範圍內的方塊。
+  IgnoreClaimsAdvertisement:
+    Text: 使用 /IgnoreClaims 啟動領地穿透模式
+  NoPermissionForCommand:
+    Text: 你沒有權限使用這個指令。
+  ClaimsListNoPermission:
+    Text: 你沒有權限查看其他玩家的領地資訊。
+  ExplosivesDisabled:
+    Text: 領地內的方塊現在不會再被爆炸破壞，使用 /ClaimExplosions 解除保護。
+  ExplosivesEnabled:
+    Text: 領地內的方塊現在會被爆炸破壞，使用 /ClaimExplosions 重新啟用保護。
+  ClaimExplosivesAdvertisement:
+    Text: 若想允許爆炸破壞領地內的方塊，可以使用 /ClaimExplosions.
+  PlayerInPvPSafeZone:
+    Text: 這個玩家不在PvP範圍內。
+  NoPistonsOutsideClaims:
+    Text: 注意：活塞在領地外不會移動。
+  SoftMuted:
+    Text: 已將 {0} 靜音。
+    Notes: '0: The changed player''s name.'
+  UnSoftMuted:
+    Text: 已將 {0} 解除靜音。
+    Notes: '0: The changed player''s name.'
+  DropUnlockAdvertisement:
+    Text: 其他玩家不能拾取你的掉落物，除非你使用了 /UnlockDrops。
+  PickupBlockedExplanation:
+    Text: 你不能拾取 {0} 的掉落物，除非他使用 /UnlockDrops 指令。
+    Notes: '0: The item stack''s owner.'
+  DropUnlockConfirmation:
+    Text: 已經解鎖你的掉落物，現在其他玩家可以拾取你的掉落物(直至你再次死亡)。
+  DropUnlockOthersConfirmation:
+    Text: 解鎖 {0} 的掉落物。
+    Notes: '0: The owner of the unlocked drops.'
+  AdvertiseACandACB:
+    Text: 你可以使用 /ACB 增加自己的領地方塊數量，或使用 /AdminClaims 建立官方領地。
+  AdvertiseAdminClaims:
+    Text: 你可以使用 /AdminClaims 建立官方領地，所有管理員將會擁有管理此領地的權限。
+  AdvertiseACB:
+    Text: 你可以使用 /ACB 增加自己的領地方塊數量。
+  NotYourPet:
+    Text: 他是屬於 {0} 的動物，除非他使用 /GivePet 將擁有權轉移給你。
+    Notes: '0: owner name'
+  PetGiveawayConfirmation:
+    Text: 動物擁有者已成功轉移！
+  PetTransferCancellation:
+    Text: 已取消轉移動物擁有者。
+  ReadyToTransferPet:
+    Text: 準備轉移動物擁有者！ 右鍵點擊你想轉移的動物，或再次使用 /GivePet 取消操作。
+  AvoidGriefClaimLand:
+    Text: 當建立了一個領地，範圍內將不會受到其他玩家破壞。
+  BecomeMayor:
+    Text: 將你的領地分割出子領地，你將成為市長！
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: 你的領地數量已達上限，若想再建立一個領地，請使用 /AbandonClaim 去移除一個已有的領地。
+  CreateClaimFailOverlapRegion:
+    Text: 你不能在此建築，因此你不能在這裡建立領地。
+  ResizeFailOverlapRegion:
+    Text: 你不能在此建築，因此你的領地不能擴展至此。
+  NoBuildPortalPermission:
+    Text: 你不能使用這個傳送門，因為你沒有 {0} 的許可在目的地建立傳送門。
+    Notes: '0: Destination land claim owner''s name.'
+  ShowNearbyClaims:
+    Text: 找到 {0} 個領地。
+    Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: 為防止洗頻機械人，請在發言前先移動。
+  SiegeImmune:
+    Text: /siege 指令對這個玩家沒有效果。
+  SetClaimBlocksSuccess:
+    Text: 成功更新領地方塊數量。
+  IgnoreConfirmation:
+    Text: 你忽略了該玩家，你將不會再看見他的對話。
+  NotIgnoringPlayer:
+    Text: 你沒有忽略這個玩家。
+  UnIgnoreConfirmation:
+    Text: 你不再忽略該玩家，你可以再看見他的對話。
+  SeparateConfirmation:
+    Text: 現在他們將會互相忽略。
+  UnSeparateConfirmation:
+    Text: 現在他們不再互相忽略。
+  NotIgnoringAnyone:
+    Text: 你沒有忽略任何玩家。
+  TrustListHeader:
+    Text: '詳細權限:'
+  Manage:
+    Text: 管理
+  Build:
+    Text: 建築
+  Containers:
+    Text: 容器
+  Access:
+    Text: 使用
+  StartBlockMath:
+    Text: 在線時間取得 {0} 格 + 額外獎勵 {1} 格 = 總共 {2} 格
+  ClaimsListHeader:
+    Text: '領地:'
+  ContinueBlockMath:
+    Text: ' (-{0} 格)'
+  EndBlockMath:
+    Text: ' = 需要消耗 {0} 格'
+  NoClaimDuringPvP:
+    Text: 你不能在PvP期間建立領地。
+  UntrustAllOwnerOnly:
+    Text: 只有領地擁有者能清除所有權限。
+  ManagersDontUntrustManagers:
+    Text: 只有領地擁有者能將管理者降階。
+  BookAuthor:
+    Text: MCLife
+  BookTitle:
+    Text: 如何建立領地
+  BookIntro:
+    Text: 建立領地以保護你的建築，點擊影片連結可以在3分鐘內學會建立領地。
+  BookDisabledChestClaims:
+    Text: '  在這個伺服器中，放置箱子不會自動為你建立領地'
+  BookUsefulCommands:
+    Text: '常用指令:'
+  BookLink:
+    Text: '點擊: {0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: 使用金剷建立或修改領地，木棒查看領地資訊。
+    Notes: '0: claim modification tool name; 1:claim information tool name'
+  ResizeClaimTooNarrow:
+    Text: 領地寬度不足，最小領地寬度為 {0} 格。
+    Notes: '0: minimum claim width'
+  ResizeClaimInsufficientArea:
+    Text: 領地範圍太小，最小領地範圍為 {0} 格。
+    Notes: '0: minimum claim area'
+  NoProfanity:
+    Text: 請注意你的言行！
+  PlayerNotIgnorable:
+    Text: 你不能忽略這個玩家。
+  NoEnoughBlocksForChestClaim:
+    Text: 由於你沒有足夠的領地方塊，因此並未自動建立領地。你可以使用 /ClaimsList 去查看你剩餘的領地方塊數量。
+  IsIgnoringYou:
+    Text: 這個玩家已忽略你。
+  MustHoldModificationToolForThat:
+    Text: 你需要手持一個金剷去進行。
+  StandInClaimToResize:
+    Text: 若想要調整領地大小，請站在領地範圍內。
+  ClaimsExtendToSky:
+    Text: 領地會自動擴展到最高可建築範圍。
+  ClaimsAutoExtendDownward:
+    Text: 當你將方塊放置到更低的位置，領地會自動擴展至更低。
+  MinimumRadius:
+    Text: 最低半徑為 {0}。
+    Notes: '0: minimum radius'
+  RadiusRequiresGoldenShovel:
+    Text: 你需要手持金剷指定範圍。
+  ClaimTooSmallForActiveBlocks:
+    Text: 領地範圍不足以放置活躍方塊(漏斗, 生怪箱, 烽火台...)，若要放置，請擴建領地。
+  TooManyActiveBlocksInClaim:
+    Text: 領地的活躍方塊(漏斗, 生怪箱, 烽火台...)數量已達上限，擴建領地或移除其他活躍方塊以放置更多。
+  ConsoleOnlyCommand:
+    Text: 這個指令只可以在控制台執行。
+  WorldNotFound:
+    Text: 找不到世界。
+  AdjustBlocksAllSuccess:
+    Text: 在線玩家的額外領地方塊數目已成功增加 {0} 格。
+    Notes: '0: adjustment amount'
+  TooMuchIpOverlap:
+    Text: 有太多與你相同IP地址的玩家。
